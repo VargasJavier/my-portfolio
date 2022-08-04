@@ -19,7 +19,7 @@
   </head>
   <body>
     <header>
-      <picture>
+      <picture class="picture__header">
         <img
           class="image__nav"
           src="assets/images/logoNew.png"
@@ -50,8 +50,12 @@
           <p class="subtitle">Desarrollador frontend</p>
         </h1>
         <div class="container__buttons">
-          <button class="button">Iniciar vista</button>
-          <button class="button button__main">Contactar</button>
+          <button class="button">
+            <a class="ancla" href="#proyectos">Iniciar recorrido </a>
+          </button>
+          <button class="button button__main">
+            <a class="ancla" href="">Contactar</a>
+          </button>
         </div>
         <section class="section__data">
           <div class="data">
@@ -73,17 +77,22 @@
           />
         </picture>
       </div>
-      <picture class="picture__main">
-        <img
-          class="image__main__main"
-          src="assets/images/tecnologia.jpg"
-          alt="Foto principal"
-        />
-      </picture>
+      <div class="picture__main">
+        <picture>
+          <img
+            class="image__main__main"
+            src="assets/images/tecnologia.jpg"
+            alt="Foto principal"
+          />
+        </picture>
+      </div>
     </main>
     <section class="section">
       <div class="content__section">
-        <h2 class="title__section">Proyectos</h2>
+        <h2 id="proyectos" class="title__section">
+          <br />
+          Proyectos
+        </h2>
         <p class="parraph">
           Entre mis proyectos realizados, están separados entre finalizados y en
           progreso
@@ -93,9 +102,10 @@
             <article class="card">
               <div class="card__icon"><i class="fas fa-tshirt"></i></div>
               <section>
-                <h3 class="card__title">Proyecto 1</h3>
+                <h3 class="card__title">Onara</h3>
                 <p class="parraph card__parraph">
-                  Este proyecto consiste en un sistema de ventas
+                  Este proyecto consiste en la venta de camisetas de futbol del
+                  mundo.
                 </p>
               </section>
             </article>
@@ -107,9 +117,10 @@
             <article class="card">
               <div class="card__icon"><i class="fas fa-shopping-cart"></i></div>
               <section>
-                <h3 class="card__title">Proyecto 2</h3>
+                <h3 class="card__title">Uno para todos</h3>
                 <p class="parraph card__parraph">
-                  Este proyecto consiste en un sistema de ventas
+                  Este proyecto consiste en un sistema de ventas de un
+                  minimarket.
                 </p>
               </section>
             </article>
@@ -118,9 +129,10 @@
             <article class="card">
               <div class="card__icon"><i class="fas fa-ticket-alt"></i></div>
               <section>
-                <h3 class="card__title">Proyecto 3</h3>
+                <h3 class="card__title">My movies in React</h3>
                 <p class="parraph card__parraph">
-                  Este proyecto consiste en un sistema de ventas
+                  Este proyecto consiste en recrear el sistema de un cine, con
+                  ayuda de un API.
                 </p>
               </section>
             </article>
@@ -129,9 +141,10 @@
             <article class="card">
               <div class="card__icon"><i class="fas fa-music"></i></div>
               <section>
-                <h3 class="card__title">Proyecto 4</h3>
+                <h3 class="card__title">Foxbel Music</h3>
                 <p class="parraph card__parraph">
-                  Este proyecto consiste en un sistema de ventas
+                  Este proyecto consiste en un reproductor de música y un
+                  buscador.
                 </p>
               </section>
             </article>
@@ -140,9 +153,10 @@
             <article class="card">
               <div class="card__icon"><i class="fas fa-plane"></i></div>
               <section>
-                <h3 class="card__title">Proyecto 5</h3>
+                <h3 class="card__title">AirReact</h3>
                 <p class="parraph card__parraph">
-                  Este proyecto consiste en un sistema de ventas
+                  Este proyecto consiste en un sistema de ventas de boletos
+                  aéreos.
                 </p>
               </section>
             </article>
@@ -154,9 +168,10 @@
             <article class="card">
               <div class="card__icon"><i class="fas fa-briefcase"></i></div>
               <section>
-                <h3 class="card__title">Proyecto 6</h3>
+                <h3 class="card__title">Proyecto Maximo</h3>
                 <p class="parraph card__parraph">
-                  Este proyecto consiste en un sistema de ventas
+                  Proyecto freelance que consiste en una página que ofrece
+                  servicios webs.
                 </p>
               </section>
             </article>
@@ -165,9 +180,9 @@
             <article class="card">
               <div class="card__icon"><i class="fas fa-meteor"></i></div>
               <section>
-                <h3 class="card__title">Proyecto 7</h3>
+                <h3 class="card__title">My space</h3>
                 <p class="parraph card__parraph">
-                  Este proyecto consiste en un sistema de ventas
+                  Recreando el espacio con ayuda de animaciones CSS puro.
                 </p>
               </section>
             </article>
