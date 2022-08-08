@@ -66,7 +66,6 @@ header {
   flex-direction: column;
   align-items: center;
   height: calc(100vh - 5.25rem);
-  /* background-image: url(https://thypix.com/wp-content/uploads/2021/06/clouds-transparent-background-9-700x573.png); */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -107,6 +106,7 @@ header {
   max-width: 30rem;
   padding: 1rem 0;
   font-weight: bold;
+  text-align: center;
   margin: 0.5rem 0;
   font-size: 0.75rem;
   color: var(--color-title);
@@ -232,6 +232,10 @@ header {
   .bars {
     display: none;
   }
+}
+
+footer {
+  text-align: center;
 }
 
 @media (min-width: 920px) {
